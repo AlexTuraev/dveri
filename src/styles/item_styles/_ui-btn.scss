@@ -1,0 +1,21 @@
+.ui-btn{
+    color: $white;
+    background-color: $backColor;
+    transition: background-color .2s ease-in, color .2s ease-in;
+    border: none;
+    box-sizing: border-box;
+
+    &:hover,
+    &:focus{
+        outline: none;
+        background-color: $white;
+        color: $primary;
+        border: 1px solid $primary;
+    }
+
+    &:active{
+        border: none;
+        box-shadow: 0 1px 2px $primary, 0 -1px 2px $primary;
+    }
+
+}

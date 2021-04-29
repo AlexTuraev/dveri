@@ -1,0 +1,11 @@
+@import '../../styles/main.scss';
+
+.catalog{
+    width: 100%;
+    min-height: 100vh;
+
+    &__items-block{
+        width: 100%;
+        display: flex;
+    }
+}

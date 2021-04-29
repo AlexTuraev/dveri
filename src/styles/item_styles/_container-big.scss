@@ -1,0 +1,8 @@
+.container-big{
+    width: 95%;
+    margin: 0 auto;
+
+    &--bkColor{
+        background-color: $backColor;
+    }
+}

@@ -1,0 +1,12 @@
+@import '../../styles/main.scss';
+
+.items-grid{
+    width: 100%;
+
+    &__ul{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
