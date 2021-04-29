@@ -12,9 +12,13 @@ const ItemCard = ({title, imgUrl, price, id}) => {
                 hoverable
                 style={{ width: 240 }}
                 title={<p className='item-card__title' title={title}>{title}</p>}
-                cover={<img className='item-card__img' alt="item picture" src={imgUrl} />}
+                cover={
+                    <div className='item-card__img-block'>
+                        <img className='item-card__img' alt="item picture" src={imgUrl} />
+                    </div>
+                }
             >        
-                <Meta title="Europe Street beat" description="www.instagram.com" />
+                <Meta title="Надпись" description="Ссылка" />
                 <p className='item-card__price'>{`Цена: ${price} руб.`}</p>
             </Card>
         </div>
